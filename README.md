@@ -1,6 +1,14 @@
 # clipper-lua
 Lua bindings for the C++ version of [Angus Johnson's Clipper library](https://sourceforge.net/projects/polyclipping/), generated with [SWIG](http://www.swig.org/).
 
+## Pre-built binaries
+Pre-built binaries for Lua 5.1 can be found in the [releases page](https://github.com/apicici/clipper-lua/releases) for the following systems/architectures:
+* Linux x64
+* Windows x86, x64
+* macos x64
+
+For other versions of Lua or different systems see the compilation instructions.
+
 ## Compilation
 The Lua wrapper ```clipper_wrap.cxx``` was generated with SWIG 4.0 using
 ```bash
