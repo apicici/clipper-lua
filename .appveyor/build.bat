@@ -10,5 +10,6 @@ cd build
 cmake -A %ARCH% ..
 cmake --build . --config Release
 robocopy ../ Release/ *.md
+robocopy ../.appveyor Release/ *.md
 cd Release
 7z a -tzip build.zip *.dll *.md
