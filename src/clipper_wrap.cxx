@@ -2755,7 +2755,7 @@ typedef struct{} LANGUAGE_OBJ;
 
 
 /* Includes the header in the wrapper code */
-#include "clipper.hpp"
+#include "clipper/clipper.hpp"
 
 
 #include <vector>
