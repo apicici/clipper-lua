@@ -34,7 +34,7 @@ clipper = require "clipper"
 * Clipper ```Path``` and ```Paths``` are wrapped in Lua and behave as ```std::vector```. Usage examples:
   ```lua
   path = clipper.Path() -- initialise empty vector
-  path.push_back(clipper.IntPoint(1,2)) -- add IntPoint to vector
+  path:push_back(clipper.IntPoint(1,2)) -- add IntPoint to vector
   
   path = clipper.Path(3) -- initialise vector of size 3
   path[0] = clipper.IntPoint(2, 3) -- specify first IntPoint in vector
